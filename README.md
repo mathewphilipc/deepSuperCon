@@ -1,2 +1,1 @@
-# deepSuperCon
-Neural net to predict superconductivity
+deepSuperCon is a neural net for predicting superconductivity.
