@@ -50,10 +50,9 @@ def main():
 	# Build 3 layer DNN with [10,20,10] units respectively
 
 	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns,
-		hidden_units=[50,20,15,10,5],
-		# 8755 free parameters
+		hidden_units=[30,30,30,30,20,10],
 		n_classes=2,
-		model_dir="/home/mathew/deepSuperConModels/supercon_model_B")
+		model_dir="/home/mathew/deepSuperConModels/supercon_model_C")
 
 	# Note that model_dir is persistent after training
 	# In order to re-run training with, e.g., different hidden unit numbers,
@@ -78,7 +77,7 @@ def main():
 	#Train mode
 
 	steps = 1000
-	multiplier = 1000
+	multiplier = 10
 
 	for i in range(multiplier):
 		progress = ((i+1.0)/multiplier)*100

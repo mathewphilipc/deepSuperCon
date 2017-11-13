@@ -22,7 +22,7 @@
 1250k => 84.2391%
 1500k => 84.4096%
 
-(Steps => Accuracy) trends for deepSuperCon with hidden shape [50,20,15,10,5]:
+(Steps => Accuracy) trends for deepSuperConB with hidden shape [50,20,15,10,5]:
 10k => 77.8847%
 20k => 78.3295%
 30k => 79.9257%
@@ -52,7 +52,47 @@
 
 
 
-Overall performance versus steps:
+(Steps => Accuracy) trends for deepSuperConC with hidden shape [30,30,30,30,20,10]:
+10k => 75.8377%
+20k => 75.8377%
+30k => 75.8377%
+40k => 75.8377%
+50k => 75.8377%
+60k => 75.8377%
+70k => 75.8377%
+80k => 75.8377%
+90k => 75.8377%
+100k => 75.8377%
 
 
+(Steps => Accuracy) trends for deepSuperConD with hidden shape [50,20,15,10,10,5]:
+10k => 76.1362%
+20k => 77.7751%
+30k => 79.2799%
+40k => 79.7916%
+50k => 80.2851%
+60k => 79.7185%
+70k => 80.7177%
+80k => 81.3635%
+90k => 81.3513%
+100k => 81.4061%
+200k => 82.7038%
+300k => 82.5759%
+400k => 84.0989%
+500k => 84.8666%
+600k => 
+
+(Steps => Accuracy) trends for deepSuperConE with hidden shape [50,30,10]:
+10k => 76.1606%
+20k => 77.9030%
+30k => 78.2259%
+40k => 78.1528%
+50k => 79.4444%
+60k => 80.0597%
+70k => 80.5288%
+80k => 81.0771%
+90k => 81.1502%
+100k => 80.6385%
+200k => 82.2225%
+300k => 82.5149%
 
