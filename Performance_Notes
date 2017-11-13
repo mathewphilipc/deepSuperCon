@@ -80,7 +80,8 @@
 300k => 82.5759%
 400k => 84.0989%
 500k => 84.8666%
-600k => 
+600k => 85.1468%
+700k => 85.3418%
 
 (Steps => Accuracy) trends for deepSuperConE with hidden shape [50,30,10]:
 10k => 76.1606%
