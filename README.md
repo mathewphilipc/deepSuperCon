@@ -1,3 +1,5 @@
 ``Thus, looking for high T$_c$ superconductors is like a voyage in a big ocean without a precise compass, i.e., researchers have to move ahead believing their sense and/or intuition referring to what theorists say. In this sense, looking for high T$_c$ superconductors is a truly challenging subject and typical 'all or nothing' research. It is a historical fact that materials leading to breakthroughs have been discovered in most cases by chance amidst concentrated research efforts undertaken with a unique but flexible view. This is particularly true for the exploration of new superconductors." (Hosono et al. 2015)
 
 We hope to improve this situation by applying techniques from statistical learning to the problem of finding new non-centrosymmetric superconductors. deepSuperCon is a neural net for predicting superconductivity, produced in collaboration with the Center for Nanophysics and Advanced Materials at the University of Maryland, College Park.
+
+Because of limits on file size, the actual training data is stored locally. Training methods and benchmarking are included in this repository.
