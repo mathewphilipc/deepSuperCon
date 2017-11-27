@@ -172,6 +172,8 @@
 10,900k => 87.1817%
 11,000k => 87.2121%
 12,000k => 87.3766%
+12,220k => 87.3096%
+13,000k => ??.????% (started at 9:54pm)
 
 
 (Steps => Accuracy) trends for deepSuperConF with hidden shape [10,10,10,10,10,10,10,10,10,10]:

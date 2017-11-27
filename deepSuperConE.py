@@ -77,7 +77,7 @@ def main():
 	#Train mode
 
 	steps = 1000
-	multiplier = 1000
+	multiplier = 7000
 
 	for i in range(multiplier):
 		progress = ((i+1.0)/multiplier)*100
