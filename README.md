@@ -3,3 +3,5 @@
 We hope to improve this situation by applying techniques from statistical learning to the problem of finding new non-centrosymmetric superconductors. deepSuperCon is a neural net for predicting superconductivity, produced in collaboration with the Center for Nanophysics and Advanced Materials at the University of Maryland, College Park.
 
 Because of limits on file size, the actual training data is stored locally. Training methods and benchmarking are included in this repository.
+
+One problem plaguing this approach is the 145 feature variables. As a first unsophisticated approach at reduction, we filter out the 37 variables whose correlations with Tc fall below 10%. Let's see how quickly the nets learn in R^108.

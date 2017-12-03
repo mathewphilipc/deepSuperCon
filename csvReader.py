@@ -35,7 +35,7 @@ for _ in range(10):
 			firstTenPairs[i] = b
 #print(firstTenPairs)
 
-
+# sort correlations
 for _ in range(145):
 	for i in range(144):
 		a = correlationPairs[i]
