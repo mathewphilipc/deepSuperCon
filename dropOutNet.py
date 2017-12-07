@@ -47,10 +47,10 @@ def main():
 	feature_columns = [tf.feature_column.numeric_column("x", shape=[145])]
 	print("...\nDefined feature columns")
 
-	# Build 3 layer DNN with [10,20,10] units respectively
+	# Build 4 layer DNN with [100,100,100,100] units respectively
 
 	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns,
-		hidden_units=[50,50,50,50],
+		hidden_units=[100,100,100,100],
 		n_classes=2,
 		model_dir="/home/mathew/deepSuperConModels/dropOut_model")
 
