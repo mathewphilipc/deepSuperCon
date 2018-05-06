@@ -47,10 +47,11 @@ def main():
 	feature_columns = [tf.feature_column.numeric_column("x", shape=[145])]
 	print("...\nDefined feature columns")
 
-	# Build 4 layer DNN with [100,100,100,100] units respectively
+	# Build 4 layer DNN with [30,30,30,30] units respectively
 
 	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns,
-		hidden_units=[100,100,100,100],
+		hidden_units=[30,30,30,30],
+		dropout=0.5,
 		n_classes=2,
 		model_dir="/home/mathew/deepSuperConModels/dropOut_model")
 
@@ -76,8 +77,8 @@ def main():
 
 	#Train mode
 
-	steps = 1000
-	multiplier = 100
+	steps = 1
+	multiplier = 10
 
 	for i in range(multiplier):
 		progress = ((i+1.0)/multiplier)*100

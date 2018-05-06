@@ -50,7 +50,7 @@ def main():
 	# Build 4 layer DNN with [100,100,100,100] units respectively
 
 	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns,
-		hidden_units=[100,75,50,25],
+		hidden_units=[30, 30, 30],
 		dropout=0.5,
 		n_classes=2,
 		model_dir="/home/mathew/deepSuperConModels/dropOut_model_D")
